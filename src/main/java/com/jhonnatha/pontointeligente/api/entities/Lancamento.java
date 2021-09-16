@@ -20,6 +20,8 @@ import javax.persistence.TemporalType;
 
 import com.jhonnatha.pontointeligente.api.enums.TipoEnum;
 
+@Entity
+@Table(name = "lancamento")
 public class Lancamento implements Serializable {
 	
 	private static final long serialVersionUID = 6524560251526772839L;
